@@ -1,0 +1,20 @@
+$category-background-color: #242424;
+
+#categories-container {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+}
+
+#categories-container div {
+    background-color: $category-background-color;
+    margin: 0 7px;
+    border-radius: 150px;
+    padding: 9px 18px;
+}
+
+#categories-container div p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

@@ -1,6 +1,6 @@
 import { IVideo } from './videos';
 import { VideoService } from './video.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-video',
@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoComponent implements OnInit {
   videos: IVideo[] = [];
+  @Input() testNr: number = 0;
 
   constructor(private videoService: VideoService) {}
 
@@ -17,5 +18,4 @@ export class VideoComponent implements OnInit {
       next: videos => this.videos = videos
     });
   }
-  
 }

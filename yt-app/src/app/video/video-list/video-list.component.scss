@@ -1,0 +1,11 @@
+#video-list-container {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    width: 85%;
+    margin:auto;
+}
+
+#video-list-container div {
+    width: 25%;
+}

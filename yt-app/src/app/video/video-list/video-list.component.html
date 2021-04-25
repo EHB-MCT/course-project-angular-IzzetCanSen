@@ -1,0 +1,7 @@
+<div id="video-list-container" >
+    <div *ngFor="let n of fakeArray; let index = index">
+        <app-video
+        [testNr] = "index"
+        ></app-video>
+    </div>
+</div>

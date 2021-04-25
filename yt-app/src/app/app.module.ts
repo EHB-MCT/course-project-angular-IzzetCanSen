@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VideoComponent } from './video/video.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { VideoListComponent } from './video/video-list/video-list.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideoComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    VideoListComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,

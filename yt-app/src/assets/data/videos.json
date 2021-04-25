@@ -1,4 +1,13 @@
-[
+[   
+    {
+        "date": "25/03/2021",
+        "duration": 25.16,
+        "profileName": "PewDiePie",
+        "profileUrl": "./assets/images/profile-1.jpg",
+        "thumbnailUrl": "./assets/images/thumb-1.jpg",
+        "title": "Minecraft Is Easy",
+        "views": 4363866
+    },
     {
         "date": "20/07/2020",
         "duration": 47.49,
@@ -16,5 +25,88 @@
         "thumbnailUrl": "./assets/images/thumb-3.jpg",
         "title": "Get Paid with Crypto in your App // Coinbase Commerce Tutorial",
         "views": 36231
+    },
+    {
+        "date": "24/04/2021",
+        "duration": 8.52,
+        "profileName": "JC Playz",
+        "profileUrl": "./assets/images/profile-4.jpg",
+        "thumbnailUrl": "./assets/images/thumb-4.jpg",
+        "title": "SIMPLE AUTOMATIC PIGLIN BARTERING FARM TUTORIAL in Minecraft Bedrock (MCPE/Xbox/PS4/Switch/PC)",
+        "views": 44208
+    },
+    {
+        "date": "24/04/2021",
+        "duration": 14.20,
+        "profileName": "MrBeast",
+        "profileUrl": "./assets/images/profile-5.jpg",
+        "thumbnailUrl": "./assets/images/thumb-5.jpg",
+        "title": "I Got Hunted By A Bounty Hunter",
+        "views": 17260611
+    },
+    {
+        "date": "7/11/2020",
+        "duration": 33.45,
+        "profileName": "Dream",
+        "profileUrl": "./assets/images/profile-6.jpg",
+        "thumbnailUrl": "./assets/images/thumb-6.jpg",
+        "title": "Minecraft, But It's Pitch Black...",
+        "views": 13405664
     }
+    ,
+    {
+        "date": "3/10/2014",
+        "duration": 5.58,
+        "profileName": "Just For Laughs",
+        "profileUrl": "./assets/images/profile-7.jpg",
+        "thumbnailUrl": "./assets/images/thumb-7.jpg",
+        "title": "Kevin Hart - I'm Scared Of Ostriches",
+        "views": 7981838 
+    },
+    {
+        "date": "14/04/2021",
+        "duration": 15.43,
+        "profileName": "Memecorp",
+        "profileUrl": "./assets/images/profile-8.jpg",
+        "thumbnailUrl": "./assets/images/thumb-8.jpg",
+        "title": "memes that caught me off guard",
+        "views": 7361999
+    },
+    {
+        "date": "13/04/2021",
+        "duration": 10.12,
+        "profileName": "SidemenReacts",
+        "profileUrl": "./assets/images/profile-9.jpg",
+        "thumbnailUrl": "./assets/images/thumb-9.jpg",
+        "title": "Funniest Moments in Gaming!",
+        "views": 1652501
+    },
+    {
+        "date": "10/02/2015",
+        "duration": 53.30,
+        "profileName": "Luigi",
+        "profileUrl": "./assets/images/profile-10.jpg",
+        "thumbnailUrl": "./assets/images/thumb-10.jpg",
+        "title": "Minecraft FULL SOUNDTRACK",
+        "views": 31171623
+    },
+    {
+        "date": "20/04/2021",
+        "duration": 7.53,
+        "profileName": "ONE Media",
+        "profileUrl": "./assets/images/profile-11.jpg",
+        "thumbnailUrl": "./assets/images/thumb-11.jpg",
+        "title": "MORTAL KOMBAT 'Scorpion VS Sub-Zero' Opening Scene (2021)",
+        "views": 21676544
+    },
+    {
+        "date": "25/04/2021",
+        "duration": 4.21,
+        "profileName": "MrSuicideSheep",
+        "profileUrl": "./assets/images/profile-12.jpg",
+        "thumbnailUrl": "./assets/images/thumb-12.jpg",
+        "title": "Aether - Fragments",
+        "views": 19740
+    }
+    
 ]
