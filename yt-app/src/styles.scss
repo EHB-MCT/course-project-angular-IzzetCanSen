@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+$icon-color: #BCBBBB;
+$icon-size: 1.6rem;
+$font-color: #BCBBBB;
+$body-background-color: #141414;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: $body-background-color;
+    color: $font-color;
+}
+
+.icon-color {
+    color: $icon-color;
+}
+
+.icon-size{
+    font-size: $icon-size;
+}
+

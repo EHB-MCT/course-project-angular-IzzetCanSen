@@ -1,0 +1,26 @@
+<!-- <div id="videoContainer" class="text" *ngFor="let video of videos">
+</div> -->
+
+<div id="main-container">
+    <div id="video-container">
+        <div id="thumb-container">
+            <img [src]="videos[0].thumbnailUrl" alt="">
+            <p>{{videos[0].views}}</p>
+            <p>{{videos[0].duration}}</p>
+        </div>
+        <div id="info-container">
+            <div id="pp-container">
+                <img [src]="videos[0].profileUrl" alt="">
+            </div>
+            <div id="info-sub-container">
+                <h3>{{videos[0].title}}</h3>
+                <div>
+                    <p>{{videos[0].profileName}}</p>
+                    <p>{{videos[0].date}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

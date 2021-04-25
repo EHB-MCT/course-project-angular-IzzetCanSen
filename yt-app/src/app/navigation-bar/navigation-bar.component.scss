@@ -1,0 +1,168 @@
+$nav-color: #1E1E1E;
+$nav-line-color:#2E2E2E;
+$nav-dropdown-color: #242424;
+$nav-search-color: #141414;
+$icon-search-size: 1.5rem;
+
+
+
+
+//      nav-container      //
+
+#upperNav{
+    display: flex;
+    background-color: $nav-color;
+    width: 100%;
+    height: 90px;
+}
+
+nav .gray-line {
+    background-color: $nav-line-color;
+    width: 100%;
+    height: 5px;
+    display: block;
+}
+
+#lowerNav{
+    display: flex;
+    background-color: $nav-color;
+    width: 100%;
+    height: 60px;
+}
+
+#lowerNav-dropdown-container{
+    display: flex;
+    justify-content: center;
+    background-color: $nav-dropdown-color;
+    width: 100%;
+    height: 60px;
+}
+
+
+//      logo-container      //
+
+#logo-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+#logo-container .yt-logo{
+    width: 120px;
+}
+
+
+
+//      search-container      //
+
+#search-container{
+    width: 40%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+}
+
+#search-container form{
+    width: 80%;
+    display: flex;
+    margin-left: 8%;
+}
+#search-container form input{ 
+    width: 90%;
+    background-color: $nav-search-color;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+}
+
+#search-container input:focus{
+    outline: none;
+}
+
+#search-container form button{ 
+    width: 10%;
+    background-color: $nav-search-color;
+    border: none;
+    padding: 0.6rem 1rem;
+}
+
+#search-container .icon-search-size {
+    font-size: $icon-search-size;
+}
+
+#search-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+}
+
+
+//      user-container      //
+
+#user-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+#user-container span{
+    margin: 0.8rem;
+}
+
+#user-container .profile-picture{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+
+//      hamburger-container      //
+
+#hamburger-container {
+    display: flex;
+    align-items: center;
+    width: 5%;
+    padding-left: 3rem;
+}
+
+#nav-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding-right: 5%;
+}
+
+#nav-items-container div {
+    display: flex;
+    align-items: center;
+    margin: 0.4rem 2rem;
+}
+
+#nav-items-container div p {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+
+//      lowerNav-dropdown-container      //
+
+#lowerNav-dropdown-container div {
+    display: flex;
+    align-items: center;
+    margin: 0.4rem 2rem;
+}
+
+#lowerNav-dropdown-container div p {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
