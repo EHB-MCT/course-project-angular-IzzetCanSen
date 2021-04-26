@@ -1,0 +1,71 @@
+$primary-font-color:#fff;
+$secondary-font-color:#BCBBBB;
+$highlighted-font-color: #3CA6FF;
+
+#comment-container {
+    display: flex;
+    width: 100%;
+}
+
+#pp-container {
+    width: 15%;
+    padding-top: 2%;
+}
+
+#info-sub-container {
+    width: 85%; 
+}
+
+#pp-container img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+#name-date-container {
+    display: flex;
+    align-items: center;
+}
+
+#name-date-container h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $primary-font-color;
+    margin:0;
+}
+
+#name-date-container p {
+    font-size: 0.9rem;
+    color: $secondary-font-color;
+    margin-left: 3%;
+}
+
+#comcomment-container{
+    margin: 0 0 5px 0;
+}
+
+#comcomment-container p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#like-reply-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#like-reply-sub-container {
+    display: flex;
+    align-items: center;
+}
+
+#like-reply-sub-container p{
+    margin:10px 15px;
+    color:$secondary-font-color;
+}
+
+#like-reply-container a {
+    text-decoration: none;
+    color: $highlighted-font-color;
+}

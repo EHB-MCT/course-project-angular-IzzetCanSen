@@ -9,7 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class VideoComponent implements OnInit {
   videos: IVideo[] = [];
-  @Input() testNr: number = 0;
+  @Input() amount: number = 0;
 
   constructor(private videoService: VideoService) {}
 

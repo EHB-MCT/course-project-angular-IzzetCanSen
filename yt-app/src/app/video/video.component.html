@@ -1,20 +1,20 @@
 
     <div id="video-container">
         <div id="thumb-container">
-            <img [src]= "videos[testNr].thumbnailUrl" alt="">
-            <p>{{videos[testNr].views}}</p>
-            <p>{{videos[testNr].duration}}</p>
+            <img [src]= "videos[amount].thumbnailUrl" alt="">
+            <p>{{videos[amount].views}}</p>
+            <p>{{videos[amount].duration}}</p>
         </div>
         <div id="info-container">
             <div id="pp-container">
-                <img [src]= "videos[testNr].profileUrl"  alt="">
+                <img [src]= "videos[amount].profileUrl"  alt="">
             </div>
             <div id="info-sub-container">
-                <h3>{{videos[testNr].title}}</h3>
+                <h3>{{videos[amount].title}}</h3>
                 <div>
-                    <p>{{videos[testNr].profileName}}</p>
-                    <p>{{videos[testNr].date}}</p>
-                </div>
+                    <p>{{videos[amount].profileName}}</p>
+                    <p>{{videos[amount].date}}</p>
+                </div> 
             </div>
         </div>
     </div>

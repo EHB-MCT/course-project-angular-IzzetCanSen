@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./video-list.component.scss']
 })
 export class VideoListComponent {
-  nr: number = 0;
   fakeArray = new Array(12);
 }

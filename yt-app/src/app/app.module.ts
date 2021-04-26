@@ -8,6 +8,8 @@ import { VideoComponent } from './video/video.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { VideoListComponent } from './video/video-list/video-list.component';
 import { CategoryComponent } from './category/category.component';
+import { CommentComponent } from './comment/comment.component';
+import { CommentListComponent } from './comment/comment-list/comment-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CategoryComponent } from './category/category.component';
     VideoComponent,
     NavigationBarComponent,
     VideoListComponent,
-    CategoryComponent
+    CategoryComponent,
+    CommentComponent,
+    CommentListComponent
   ],
   imports: [
     BrowserModule,
