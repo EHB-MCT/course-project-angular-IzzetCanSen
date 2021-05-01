@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navigation-bar',
   templateUrl: './navigation-bar.component.html',
   styleUrls: ['./navigation-bar.component.scss']
 })
-export class NavigationBarComponent implements OnInit {
+export class NavigationBarComponent {
+  container: any;
+  isHidden = true
 
-  constructor() { }
-
-  ngOnInit(): void {
+  toggleNav(): void {
+    this.isHidden = !this.isHidden;
   }
 
 }

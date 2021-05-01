@@ -8,14 +8,14 @@
                 <img [src]="videos[0].profileUrl" alt="">
                 <div id="channel-info-sub-container">
                     <h3>{{videos[0].profileName}}</h3>
-                    <p>{{videos[0].subscribers}} subscribers</p>
+                    <p>{{videos[0].subscribers | shortNumber}} subscribers</p>
                 </div>
             </div>
             <div id="darkGray-line">
             </div>
             <div id="channel-info-sub-container">
                 <h3>{{videos[0].title}}</h3>
-                <p>{{videos[0].views}} views - {{videos[0].date}}</p>
+                <p>{{videos[0].views | shortNumber}} views - {{videos[0].date}}</p>
             </div>
         </div>
         <div id="thumb-container">
@@ -31,11 +31,11 @@
                 <div id="down-info-icons">
                     <div>
                         <span class="material-icons icon-color icon-size">thumb_up</span>
-                        <p>{{videos[0].likes}}</p>
+                        <p>{{videos[0].likes | shortNumber}}</p>
                     </div>
                     <div>
                         <span class="material-icons icon-color icon-size">thumb_down</span>
-                        <p>{{videos[0].dislikes}}</p>
+                        <p>{{videos[0].dislikes | shortNumber}}</p>
                     </div>
                     <div>
                         <span class="material-icons icon-color icon-size">share</span>

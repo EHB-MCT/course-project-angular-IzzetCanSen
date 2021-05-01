@@ -16,34 +16,35 @@
             <span class="material-icons icon-color icon-size">video_call</span>
             <span class="material-icons icon-color icon-size">apps</span>
             <span class="material-icons icon-color icon-size">notifications</span>
-            <span class="profile-picture"></span>
+            <img src="./assets/images/user.jpg" alt="">
         </div>
     </section>
     <span class="gray-line"></span>
     <section id="lowerNav">
         <div id="hamburger-container">
-            <span class="material-icons icon-color icon-size">menu</span>
+            <span (click)="toggleNav()" class="material-icons icon-color icon-size">menu</span>
         </div>
         <div id="nav-items-container">
             <div>
                 <span class="material-icons icon-color icon-size">home</span>
-                <p class="icon-text">Home</p>
+                <p [hidden]="isHidden" class="icon-text">Home</p>
             </div>
             <div>
                 <span class="material-icons icon-color icon-size">explore</span>
-                <p class="icon-text">To explore</p>
+                <p [hidden]="isHidden" class="icon-text">To explore</p>
             </div>
             <div>
                 <span class="material-icons icon-color icon-size">subscriptions</span>
-                <p class="icon-text">Subscriptions</p>
+                <p [hidden]="isHidden" class="icon-text">Subscriptions</p>
             </div>
             <div>
                 <span class="material-icons icon-color icon-size">video_library</span>
-                <p class="icon-text">Library</p>
+                <p [hidden]="isHidden" class="icon-text">Library</p>
             </div>
         </div>
     </section>
-    <section id="lowerNav-dropdown-container">
+    <div [hidden]="isHidden">
+        <section id="lowerNav-dropdown-container">
             <div>
                 <span class="material-icons icon-color icon-size">history</span>
                 <p>Historical</p>
@@ -77,4 +78,5 @@
                 <p>Sports</p>
             </div>
     </section>
+    </div>
 </nav>

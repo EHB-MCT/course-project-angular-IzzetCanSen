@@ -2,7 +2,7 @@
     <div id="video-container">
         <div id="thumb-container">
             <img [src]= "videos[amount].thumbnailUrl" alt="">
-            <p>{{videos[amount].views}}</p>
+            <p>{{videos[amount].views | shortNumber}}</p>
             <p>{{videos[amount].duration}}</p>
         </div>
         <div id="info-container">
