@@ -10,6 +10,8 @@ import { VideoListComponent } from './video/video-list/video-list.component';
 import { CategoryComponent } from './category/category.component';
 import { CommentComponent } from './comment/comment.component';
 import { CommentListComponent } from './comment/comment-list/comment-list.component';
+import { SubsComponent } from './subs/subs.component';
+import { VideoDetailedComponent } from './video/video-detailed/video-detailed.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CommentListComponent } from './comment/comment-list/comment-list.compon
     VideoListComponent,
     CategoryComponent,
     CommentComponent,
-    CommentListComponent
+    CommentListComponent,
+    SubsComponent,
+    VideoDetailedComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,63 @@
+<!-- <p>{{videos[0].subscribers}}</p>
+<div [innerHTML]="videos[0].description"></div> -->
+
+<div id="temporary-container">
+    <div id="detailed-video-container">
+        <div id="channel-video-info-container">
+            <div id="channel-info-container">
+                <img [src]="videos[0].profileUrl" alt="">
+                <div id="channel-info-sub-container">
+                    <h3>{{videos[0].profileName}}</h3>
+                    <p>{{videos[0].subscribers}} subscribers</p>
+                </div>
+            </div>
+            <div id="darkGray-line">
+            </div>
+            <div id="channel-info-sub-container">
+                <h3>{{videos[0].title}}</h3>
+                <p>{{videos[0].views}} views - {{videos[0].date}}</p>
+            </div>
+        </div>
+        <div id="thumb-container">
+            <img [src]="videos[0].fakeVideo" alt="">
+        </div>
+        <div id="detailed-video-down-info-container">
+            <div id="down-info-buttons-icons">
+                <div id="down-info-buttons">
+                    <button id="join-button">JOIN</button>
+                    <button id="sub-button">SUBSCRIBED</button>
+                    <span class="material-icons icon-color icon-size">notifications</span>
+                </div>
+                <div id="down-info-icons">
+                    <div>
+                        <span class="material-icons icon-color icon-size">thumb_up</span>
+                        <p>{{videos[0].likes}}</p>
+                    </div>
+                    <div>
+                        <span class="material-icons icon-color icon-size">thumb_down</span>
+                        <p>{{videos[0].dislikes}}</p>
+                    </div>
+                    <div>
+                        <span class="material-icons icon-color icon-size">share</span>
+                        <p>SHARE</p>
+                    </div>
+                    <div>
+                        <span class="material-icons icon-color icon-size">playlist_add</span>
+                        <p>SAVE</p>
+                    </div>
+                    <div>
+                        <span class="material-icons icon-color icon-size">more_horiz</span>
+                    </div>
+                </div>
+            </div>
+            <div id="horiz-line"></div>
+            <div id="description-container">
+                <div id="description-text-container" [ngClass]="{'limitTextHeight': isShowMore}" [innerHTML]="videos[0].description"></div>
+                <button (click)="showMore()">
+                    {{ isShowMore ? 'SHOW MORE': 'SHOW LESS'}}
+                </button>
+            </div>
+            <div id="horiz-line"></div>
+        </div>
+    </div>
+</div>

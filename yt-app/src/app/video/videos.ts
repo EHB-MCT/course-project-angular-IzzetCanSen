@@ -6,4 +6,10 @@ export interface IVideo {
     thumbnailUrl: string;
     title: string;
     views: number;
+    description: string;
+    descriptionMore: string;
+    dislikes: number;
+    likes: number;
+    subscribers: number;
+    fakeVideo: string;
 }
