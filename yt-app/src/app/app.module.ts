@@ -13,6 +13,9 @@ import { CommentListComponent } from './comment/comment-list/comment-list.compon
 import { SubsComponent } from './subs/subs.component';
 import { VideoDetailedComponent } from './video/video-detailed/video-detailed.component';
 import { ShortNumberPipe } from './pipes/short-number.pipe';
+import { HomeComponent } from './home/home.component';
+import { DetailedPageComponent } from './detailed-page/detailed-page.component';
+import { SubscriptionsPageComponent } from './subscriptions-page/subscriptions-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ShortNumberPipe } from './pipes/short-number.pipe';
     CommentListComponent,
     SubsComponent,
     VideoDetailedComponent,
-    ShortNumberPipe
+    ShortNumberPipe,
+    HomeComponent,
+    DetailedPageComponent,
+    SubscriptionsPageComponent
   ],
   imports: [
     BrowserModule,
