@@ -11,7 +11,7 @@ export class VideoService {
 
     constructor(private http: HttpClient){}
 
-    getOneVideo(): Observable<IVideo[]> {
+    getAllVideos(): Observable<IVideo[]> {
         return this.http.get<IVideo[]>(this.videosUrl);
     }
 }

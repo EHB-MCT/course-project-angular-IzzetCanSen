@@ -1,7 +1,7 @@
 <div id="comment-list-container" >
-    <div *ngFor="let n of fakeArray; let index = index">
+    <div *ngFor="let comment of comments">
         <app-comment
-        [amount] = "index"
+        [comment] = 'comment'
         ></app-comment>
     </div>
 </div>

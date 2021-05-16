@@ -1,9 +1,7 @@
 <div [style]="styleObj" id="video-list-container" >
-    <div [style.width]="width" *ngFor="let n of fakeArray; let index = index">
+    <div [style.width]="width" *ngFor="let video of videos">
         <app-video
-        [amount] = "index"
+        [video] = video 
         ></app-video>
     </div>
 </div>
-
-<!-- [ngStyle]="{'flex-direction': direction}" -->

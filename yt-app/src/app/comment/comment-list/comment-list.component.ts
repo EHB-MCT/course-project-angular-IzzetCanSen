@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IComment } from '../comment';
+import { CommentService } from '../comment.service';
 
 @Component({
   selector: 'app-comment-list',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./comment-list.component.scss']
 })
 export class CommentListComponent {
-  fakeArray = new Array(8);
+  comments: IComment[] = [];
+
+  constructor(private commentService: CommentService) {}
+
+  ngOnInit(): void {
+    this.commentService.getAllComments().subscribe({
+      next: comments => this.comments = comments
+    });
+  }
 }

@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { VideoService } from '../video.service';
+import { IVideo } from '../videos';
 
 @Component({
   selector: 'app-video-list',
@@ -6,13 +8,16 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./video-list.component.scss']
 })
 export class VideoListComponent {
-  fakeArray = new Array(12);
   @Input() width = "";
   @Input() styleObj = {};
   
-  // width = '100%';
-  // styleObj = {
-  //   'flex-direction': 'column',
-  //   'width': '100%'
-  // }
+  videos: IVideo[] = [];
+  
+  constructor(private videoService: VideoService) {}
+  
+  ngOnInit(): void {
+    this.videoService.getAllVideos().subscribe({
+      next: videos => this.videos = videos
+    });
+  }
 }

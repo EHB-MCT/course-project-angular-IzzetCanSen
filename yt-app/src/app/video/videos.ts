@@ -11,5 +11,4 @@ export interface IVideo {
     dislikes: number;
     likes: number;
     subscribers: number;
-    fakeVideo: string;
 }

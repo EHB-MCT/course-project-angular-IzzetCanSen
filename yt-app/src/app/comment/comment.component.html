@@ -1,22 +1,22 @@
 <div id="comment-container">
     <div id="pp-container">
-        <img [src]= "comments[amount].profileUrl" alt="">
+        <img [src]= "comment.profileUrl" alt="">
     </div>
     <div id="info-sub-container">
         <div id="name-date-container">
-            <h3>{{comments[amount].profileName}}</h3>
-            <p>{{comments[amount].date}}</p>
+            <h3>{{comment.profileName}}</h3>
+            <p>{{comment.date}}</p>
         </div>
         <div id="comcomment-container">
-            <p>{{comments[amount].comment}}</p>
+            <p>{{comment.comment}}</p>
         </div>
         <div id="like-reply-container">
             <div id="like-reply-sub-container">
                 <span class="material-icons icon-color icon-size">thumb_up</span>
-                <p>{{comments[amount].likes | shortNumber}}</p>
+                <p>{{comment.likes | shortNumber}}</p>
                 <p>REPLY</p>
             </div>
-            <a href="">View {{comments[amount].replies | shortNumber}} replies</a>
+            <a href="">View {{comment.replies | shortNumber}} replies</a>
         </div> 
     </div>
 </div>

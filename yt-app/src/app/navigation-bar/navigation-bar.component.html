@@ -28,8 +28,8 @@
         <div id="nav-items-container">
             <a routerLink="/home">
                 <div>
-                    <span class="material-icons icon-color icon-size">home</span>
-                    <p [hidden]="isHidden" class="icon-text">Home</p>
+                    <span class="material-icons icon-color icon-size" [routerLinkActive]="['is-active']">home</span>
+                    <p [hidden]="isHidden" class="icon-text" [routerLinkActive]="['is-active']">Home</p>
                 </div>
             </a>
             <div>
@@ -38,8 +38,8 @@
             </div>
             <a routerLink="/subs">
                 <div>
-                    <span class="material-icons icon-color icon-size">subscriptions</span>
-                    <p [hidden]="isHidden" class="icon-text">Subscriptions</p>
+                    <span class="material-icons icon-color icon-size" [routerLinkActive]="['is-active']">subscriptions</span>
+                    <p [hidden]="isHidden" class="icon-text" [routerLinkActive]="['is-active']">Subscriptions</p>
                 </div>
             </a>
             <div>
