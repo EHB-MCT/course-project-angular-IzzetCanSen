@@ -126,8 +126,12 @@
           }
         },
         "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {}
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/yt-app",
+            "netlifyToken": "1313",
+            "siteId": ""
+          }
         }
       }
     }
