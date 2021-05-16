@@ -1,6 +1,6 @@
 # Website URL
 
-yt-redesign.netlify.app
+https://yt-redesign.netlify.app
 
 # Documentation
 
